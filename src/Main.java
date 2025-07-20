@@ -14,7 +14,7 @@ public class Main {
 
         while (true) {
             System.out.print("Masukkan perintah/teks: ");
-            String input = scanner.nextLine().trim();
+            String input = scanner.nextLine();
 
             if (input.equalsIgnoreCase("exit")) {
                 System.out.println("Program selesai.");
